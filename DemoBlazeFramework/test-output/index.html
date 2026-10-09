@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-DemoBlaze_Automation_Suite" class="navigator-link">
+              <span class="suite-name border-failed">DemoBlaze Automation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-DemoBlaze_Automation_Suite" class="navigator-link ">
+                    <span>C:\Users\lenovo\Desktop\Selenium_TekP\DemoBlazeFramework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-DemoBlaze_Automation_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-DemoBlaze_Automation_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-DemoBlaze_Automation_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-DemoBlaze_Automation_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-DemoBlaze_Automation_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-DemoBlaze_Automation_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 1 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-DemoBlaze_Automation_Suite" class="hide-methods failed suite-DemoBlaze_Automation_Suite"> (hide)</a> <!-- hide-methods failed suite-DemoBlaze_Automation_Suite -->
+                      <a href="#" panel-name="suite-DemoBlaze_Automation_Suite" class="show-methods failed suite-DemoBlaze_Automation_Suite"> (show)</a> <!-- show-methods failed suite-DemoBlaze_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-DemoBlaze_Automation_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Automation_Suite" title="com.demoblaze.integrationTest.IntegrationTest" class="method navigator-link" hash-for-method="verifyMultipleProductsAddedToCart">verifyMultipleProductsAddedToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-DemoBlaze_Automation_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-DemoBlaze_Automation_Suite" class="hide-methods passed suite-DemoBlaze_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-DemoBlaze_Automation_Suite -->
+                      <a href="#" panel-name="suite-DemoBlaze_Automation_Suite" class="show-methods passed suite-DemoBlaze_Automation_Suite"> (show)</a> <!-- show-methods passed suite-DemoBlaze_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-DemoBlaze_Automation_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Automation_Suite" title="com.demoblaze.smokeTest.SmokeTest" class="method navigator-link" hash-for-method="verifyApplicationLaunch">verifyApplicationLaunch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Automation_Suite" title="com.demoblaze.systemTest.SystemTest" class="method navigator-link" hash-for-method="verifyApplicationNavigation">verifyApplicationNavigation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Automation_Suite" title="com.demoblaze.systemTest.SystemTest" class="method navigator-link" hash-for-method="verifyCompleteEcommerceSystem">verifyCompleteEcommerceSystem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Automation_Suite" title="com.demoblaze.integrationTest.IntegrationTest" class="method navigator-link" hash-for-method="verifyLoggedInUserCanAddProductToCart">verifyLoggedInUserCanAddProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Automation_Suite" title="com.demoblaze.smokeTest.SmokeTest" class="method navigator-link" hash-for-method="verifyLoginSuccessfully">verifyLoginSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Automation_Suite" title="com.demoblaze.systemTest.SystemTest" class="method navigator-link" hash-for-method="verifyMajorUserFlow">verifyMajorUserFlow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Automation_Suite" title="com.demoblaze.smokeTest.SmokeTest" class="method navigator-link" hash-for-method="verifyProductAddedToCart">verifyProductAddedToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Automation_Suite" title="com.demoblaze.integrationTest.IntegrationTest" class="method navigator-link" hash-for-method="verifyProductAddedToCart">verifyProductAddedToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-DemoBlaze_Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-DemoBlaze_Automation_Suite" class="panel DemoBlaze_Automation_Suite">
+          <div class="suite-DemoBlaze_Automation_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.demoblaze.integrationTest.IntegrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMultipleProductsAddedToCart">
+                  </a> <!-- verifyMultipleProductsAddedToCart -->
+                  <span class="method-name">verifyMultipleProductsAddedToCart</span>
+                  <div class="stack-trace">java.lang.AssertionError: First product missing from cart: Samsung galaxy s6 expected [true] but found [false]
+	at com.demoblaze.integrationTest.IntegrationTest.verifyMultipleProductsAddedToCart(IntegrationTest.java:180)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoBlaze_Automation_Suite-class-failed -->
+          <div class="suite-DemoBlaze_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.demoblaze.integrationTest.IntegrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoggedInUserCanAddProductToCart">
+                  </a> <!-- verifyLoggedInUserCanAddProductToCart -->
+                  <span class="method-name">verifyLoggedInUserCanAddProductToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductAddedToCart">
+                  </a> <!-- verifyProductAddedToCart -->
+                  <span class="method-name">verifyProductAddedToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoBlaze_Automation_Suite-class-passed -->
+          <div class="suite-DemoBlaze_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.demoblaze.smokeTest.SmokeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyApplicationLaunch">
+                  </a> <!-- verifyApplicationLaunch -->
+                  <span class="method-name">verifyApplicationLaunch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginSuccessfully">
+                  </a> <!-- verifyLoginSuccessfully -->
+                  <span class="method-name">verifyLoginSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductAddedToCart">
+                  </a> <!-- verifyProductAddedToCart -->
+                  <span class="method-name">verifyProductAddedToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoBlaze_Automation_Suite-class-passed -->
+          <div class="suite-DemoBlaze_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.demoblaze.systemTest.SystemTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyApplicationNavigation">
+                  </a> <!-- verifyApplicationNavigation -->
+                  <span class="method-name">verifyApplicationNavigation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCompleteEcommerceSystem">
+                  </a> <!-- verifyCompleteEcommerceSystem -->
+                  <span class="method-name">verifyCompleteEcommerceSystem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMajorUserFlow">
+                  </a> <!-- verifyMajorUserFlow -->
+                  <span class="method-name">verifyMajorUserFlow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoBlaze_Automation_Suite-class-passed -->
+        </div> <!-- panel DemoBlaze_Automation_Suite -->
+        <div panel-name="test-xml-DemoBlaze_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\lenovo\Desktop\Selenium_TekP\DemoBlazeFramework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;DemoBlaze Automation Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Listenerutility.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;DemoBlaze System Testing&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.demoblaze.smokeTest.SmokeTest&quot;/&gt;
+      &lt;class name=&quot;com.demoblaze.integrationTest.IntegrationTest&quot;/&gt;
+      &lt;class name=&quot;com.demoblaze.systemTest.SystemTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DemoBlaze System Testing --&gt;
+&lt;/suite&gt; &lt;!-- DemoBlaze Automation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-DemoBlaze_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for DemoBlaze Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">DemoBlaze System Testing (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-DemoBlaze_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for DemoBlaze Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-DemoBlaze_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for DemoBlaze Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_DemoBlaze_Automation_Suite');
+function tableData_DemoBlaze_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyMajorUserFlow')
+data.setCell(0, 2, 'com.demoblaze.systemTest.SystemTest')
+data.setCell(0, 3, 74484);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyCompleteEcommerceSystem')
+data.setCell(1, 2, 'com.demoblaze.systemTest.SystemTest')
+data.setCell(1, 3, 73564);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyApplicationNavigation')
+data.setCell(2, 2, 'com.demoblaze.systemTest.SystemTest')
+data.setCell(2, 3, 10844);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyMultipleProductsAddedToCart')
+data.setCell(3, 2, 'com.demoblaze.integrationTest.IntegrationTest')
+data.setCell(3, 3, 8901);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyLoggedInUserCanAddProductToCart')
+data.setCell(4, 2, 'com.demoblaze.integrationTest.IntegrationTest')
+data.setCell(4, 3, 8166);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyProductAddedToCart')
+data.setCell(5, 2, 'com.demoblaze.integrationTest.IntegrationTest')
+data.setCell(5, 3, 4757);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyProductAddedToCart')
+data.setCell(6, 2, 'com.demoblaze.smokeTest.SmokeTest')
+data.setCell(6, 3, 4645);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyLoginSuccessfully')
+data.setCell(7, 2, 'com.demoblaze.smokeTest.SmokeTest')
+data.setCell(7, 3, 3770);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyApplicationLaunch')
+data.setCell(8, 2, 'com.demoblaze.smokeTest.SmokeTest')
+data.setCell(8, 3, 102);
+window.suiteTableData['DemoBlaze_Automation_Suite']= { tableData: data, tableDiv: 'times-div-DemoBlaze_Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-DemoBlaze_Automation_Suite">
+              </div> <!-- times-div-DemoBlaze_Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-DemoBlaze_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for DemoBlaze Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-DemoBlaze_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-DemoBlaze_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoblaze.smokeTest.SmokeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyApplicationLaunch</span>
+                <span class="method-start">2759 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2869 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3053 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginSuccessfully</span>
+                <span class="method-start">5536 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9309 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9546 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductAddedToCart</span>
+                <span class="method-start">12375 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17024 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoblaze.integrationTest.IntegrationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17410 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoggedInUserCanAddProductToCart</span>
+                <span class="method-start">19807 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27976 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">28213 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyMultipleProductsAddedToCart</span>
+                <span class="method-start">30083 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">39026 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">39235 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductAddedToCart</span>
+                <span class="method-start">41520 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">46280 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoblaze.systemTest.SystemTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">46466 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyApplicationNavigation</span>
+                <span class="method-start">49233 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">60080 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">60286 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCompleteEcommerceSystem</span>
+                <span class="method-start">62428 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">135995 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">136253 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyMajorUserFlow</span>
+                <span class="method-start">138267 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">212755 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

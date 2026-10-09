@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-09T16:49:14 IST" name="DemoBlaze Automation Suite" finished-at="2026-10-09T16:52:47 IST" duration-ms="213286">
+    <groups>
+    </groups>
+    <test started-at="2026-10-09T16:49:14 IST" name="DemoBlaze System Testing" finished-at="2026-10-09T16:52:47 IST" duration-ms="213286">
+      <class name="com.demoblaze.integrationTest.IntegrationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoblaze.integrationTest.IntegrationTest@723e88f9]" started-at="2026-10-09T16:49:31 IST" name="setUp" finished-at="2026-10-09T16:49:34 IST" duration-ms="2397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoggedInUserCanAddProductToCart()[pri:0, instance:com.demoblaze.integrationTest.IntegrationTest@723e88f9]" started-at="2026-10-09T16:49:34 IST" name="verifyLoggedInUserCanAddProductToCart" finished-at="2026-10-09T16:49:42 IST" duration-ms="8166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggedInUserCanAddProductToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.integrationTest.IntegrationTest@723e88f9]" started-at="2026-10-09T16:49:42 IST" name="tearDown" finished-at="2026-10-09T16:49:42 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoblaze.integrationTest.IntegrationTest@723e88f9]" started-at="2026-10-09T16:49:42 IST" name="setUp" finished-at="2026-10-09T16:49:44 IST" duration-ms="1869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMultipleProductsAddedToCart()[pri:0, instance:com.demoblaze.integrationTest.IntegrationTest@723e88f9]" started-at="2026-10-09T16:49:44 IST" name="verifyMultipleProductsAddedToCart" finished-at="2026-10-09T16:49:53 IST" duration-ms="8901" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[First product missing from cart: Samsung galaxy s6 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: First product missing from cart: Samsung galaxy s6 expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.demoblaze.integrationTest.IntegrationTest.verifyMultipleProductsAddedToCart(IntegrationTest.java:180)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMultipleProductsAddedToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.integrationTest.IntegrationTest@723e88f9]" started-at="2026-10-09T16:49:53 IST" name="tearDown" finished-at="2026-10-09T16:49:53 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoblaze.integrationTest.IntegrationTest@723e88f9]" started-at="2026-10-09T16:49:53 IST" name="setUp" finished-at="2026-10-09T16:49:55 IST" duration-ms="2283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductAddedToCart()[pri:0, instance:com.demoblaze.integrationTest.IntegrationTest@723e88f9]" started-at="2026-10-09T16:49:55 IST" name="verifyProductAddedToCart" finished-at="2026-10-09T16:50:00 IST" duration-ms="4757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductAddedToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.integrationTest.IntegrationTest@723e88f9]" started-at="2026-10-09T16:50:00 IST" name="tearDown" finished-at="2026-10-09T16:50:00 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoblaze.integrationTest.IntegrationTest -->
+      <class name="com.demoblaze.smokeTest.SmokeTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoblaze.smokeTest.SmokeTest@a1f72f5]" started-at="2026-10-09T16:49:14 IST" name="setUp" finished-at="2026-10-09T16:49:17 IST" duration-ms="2757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyApplicationLaunch()[pri:0, instance:com.demoblaze.smokeTest.SmokeTest@a1f72f5]" started-at="2026-10-09T16:49:17 IST" name="verifyApplicationLaunch" finished-at="2026-10-09T16:49:17 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplicationLaunch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.smokeTest.SmokeTest@a1f72f5]" started-at="2026-10-09T16:49:17 IST" name="tearDown" finished-at="2026-10-09T16:49:17 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoblaze.smokeTest.SmokeTest@a1f72f5]" started-at="2026-10-09T16:49:17 IST" name="setUp" finished-at="2026-10-09T16:49:19 IST" duration-ms="2483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginSuccessfully()[pri:0, instance:com.demoblaze.smokeTest.SmokeTest@a1f72f5]" started-at="2026-10-09T16:49:19 IST" name="verifyLoginSuccessfully" finished-at="2026-10-09T16:49:23 IST" duration-ms="3770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.smokeTest.SmokeTest@a1f72f5]" started-at="2026-10-09T16:49:23 IST" name="tearDown" finished-at="2026-10-09T16:49:23 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoblaze.smokeTest.SmokeTest@a1f72f5]" started-at="2026-10-09T16:49:23 IST" name="setUp" finished-at="2026-10-09T16:49:26 IST" duration-ms="2829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductAddedToCart()[pri:0, instance:com.demoblaze.smokeTest.SmokeTest@a1f72f5]" started-at="2026-10-09T16:49:26 IST" name="verifyProductAddedToCart" finished-at="2026-10-09T16:49:31 IST" duration-ms="4645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductAddedToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.smokeTest.SmokeTest@a1f72f5]" started-at="2026-10-09T16:49:31 IST" name="tearDown" finished-at="2026-10-09T16:49:31 IST" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoblaze.smokeTest.SmokeTest -->
+      <class name="com.demoblaze.systemTest.SystemTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoblaze.systemTest.SystemTest@5f0fd5a0]" started-at="2026-10-09T16:50:00 IST" name="setUp" finished-at="2026-10-09T16:50:03 IST" duration-ms="2767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyApplicationNavigation()[pri:0, instance:com.demoblaze.systemTest.SystemTest@5f0fd5a0]" started-at="2026-10-09T16:50:03 IST" name="verifyApplicationNavigation" finished-at="2026-10-09T16:50:14 IST" duration-ms="10844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplicationNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.systemTest.SystemTest@5f0fd5a0]" started-at="2026-10-09T16:50:14 IST" name="tearDown" finished-at="2026-10-09T16:50:14 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoblaze.systemTest.SystemTest@5f0fd5a0]" started-at="2026-10-09T16:50:14 IST" name="setUp" finished-at="2026-10-09T16:50:16 IST" duration-ms="2142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCompleteEcommerceSystem()[pri:0, instance:com.demoblaze.systemTest.SystemTest@5f0fd5a0]" started-at="2026-10-09T16:50:16 IST" name="verifyCompleteEcommerceSystem" finished-at="2026-10-09T16:51:30 IST" duration-ms="73564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCompleteEcommerceSystem -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.systemTest.SystemTest@5f0fd5a0]" started-at="2026-10-09T16:51:30 IST" name="tearDown" finished-at="2026-10-09T16:51:30 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoblaze.systemTest.SystemTest@5f0fd5a0]" started-at="2026-10-09T16:51:30 IST" name="setUp" finished-at="2026-10-09T16:51:32 IST" duration-ms="2012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMajorUserFlow()[pri:0, instance:com.demoblaze.systemTest.SystemTest@5f0fd5a0]" started-at="2026-10-09T16:51:32 IST" name="verifyMajorUserFlow" finished-at="2026-10-09T16:52:47 IST" duration-ms="74484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMajorUserFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.systemTest.SystemTest@5f0fd5a0]" started-at="2026-10-09T16:52:47 IST" name="tearDown" finished-at="2026-10-09T16:52:47 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoblaze.systemTest.SystemTest -->
+    </test> <!-- DemoBlaze System Testing -->
+  </suite> <!-- DemoBlaze Automation Suite -->
+</testng-results>
